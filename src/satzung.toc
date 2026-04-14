@@ -1,0 +1,26 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{Präambel}{1}{section*.2}%
+\contentsline {section}{\S ~1 Allgemeine Verhaltensregeln}{1}{section*.3}%
+\contentsline {section}{\S ~2 Funktion und Struktur}{1}{section*.4}%
+\contentsline {section}{\S ~2a Leitung}{2}{section*.5}%
+\contentsline {section}{\S ~2b Wahl der Leitung}{2}{section*.6}%
+\contentsline {section}{\S ~2c Stab und erweiterter Stab}{3}{section*.7}%
+\contentsline {section}{\S ~2d Funktionen im erweiterten Stab}{4}{section*.8}%
+\contentsline {section}{\S ~2e Mitgliederversammlung}{5}{section*.9}%
+\contentsline {section}{\S ~3 Abstimmungen und Wahlen}{6}{section*.10}%
+\contentsline {section}{\S ~3a Abwahl und Rücktritt}{7}{section*.11}%
+\contentsline {section}{\S ~4 Mitgliedschaft}{8}{section*.12}%
+\contentsline {section}{\S ~4a Reserver und außer Dienst}{9}{section*.13}%
+\contentsline {section}{\S ~5 Dienstgrade}{11}{section*.14}%
+\contentsline {section}{\S ~5a Beförderungen}{12}{section*.15}%
+\contentsline {section}{\S ~5b Dienstgradschlüssel}{15}{section*.16}%
+\contentsline {section}{\S ~6 Missionen}{15}{section*.17}%
+\contentsline {section}{\S ~6a Modpack}{16}{section*.18}%
+\contentsline {section}{\S ~7 Roleplay}{16}{section*.19}%
+\contentsline {section}{\S ~8 Umgang mit Regelverstößen}{17}{section*.20}%
+\contentsline {section}{\S ~8a Umgang mit Beschwerden gegen Einzelpersonen}{18}{section*.21}%
+\contentsline {section}{\S ~9 Kampfrollen}{19}{section*.22}%
+\contentsline {section}{\S ~9a Ausbilder}{21}{section*.23}%
+\contentsline {section}{\S ~10 Verschiedenes}{21}{section*.24}%
+\contentsline {section}{\S ~11 Gültigkeit}{22}{section*.25}%
+\contentsline {section}{Glossar der Abkürzungen}{i}{section*.26}%
