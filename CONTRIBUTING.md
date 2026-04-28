@@ -1,4 +1,4 @@
-# Beitragsrichtlinien – 1ACD Satzungsrepository
+# Beitragsrichtlinien – Satzungsrepository 1st Aircat Division
 
 Dieses Dokument beschreibt, wie Änderungen an der Satzung der 1st Aircat Division vorzunehmen sind.
 
