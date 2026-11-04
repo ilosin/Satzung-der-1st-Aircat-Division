@@ -25,8 +25,15 @@
 
 \geometry{a4paper, margin=1in}
 
+% Eigener Befehl für neue Hauptabschnitte
 
+\newcommand{\inputsection}[1]{%
 
+    \clearpage
+
+    \input{#1}%
+
+}
 
 \title{Satzung der 1st Aircat Division}
 \author{Lt. Ilosin}
@@ -45,7 +52,6 @@
 
 \begin{document}
 
-
 \begin{titlepage}
     \centering
     {\Huge\bfseries Satzung der 1st Aircat Division \\[1.5cm]} % Großer Titel
@@ -62,602 +68,82 @@
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
-\section*{Präambel}
-\label{sec:praeambel}
-\addcontentsline{toc}{section}{Präambel}
+% Präambel
 
-\textit{Vorbemerkung: In dieser Satzung ist aus Gründen der Lesbarkeit immer der männliche Artikel gewählt. 
-Es sind allerdings ausdrücklich immer alle Geschlechter und Identitäten gemeint. 
-Diese Satzung erhebt keinen Anspruch darauf, eine Satzung im rechtlichen Sinne zu sein und soll vielmehr als Regelwerk verstanden werden, 
-welches die Abläufe und den Umgang in der 1st Aircat Division regelt.}\\
-\noindent
-Die 1st Aircat Division ist ein Ort, an dem sich alle Menschen, unabhängig von Alter, geschlechtlicher Zugehörigkeit, Herkunft, Religion, Hautfarbe 
-und anderen Unterschieden in der Person wohlfühlen und Spaß am Spielen von Arma 3 haben sollen. 
-Daher geben sich die Mitglieder der 1st Aircat Division diese Satzung. 
-Für diese Satzung einzustehen, ist die Pflicht eines jeden Mitgliedes der 1st Aircat Division.
+\inputsection{0_Praeambel/0_Praeambel.tex}
 
-\section*{\S~1 Allgemeine Verhaltensregeln}
- 
-\label{sec:allgemeine_verhaltensregeln}
-\addcontentsline{toc}{section}{\S~1 Allgemeine Verhaltensregeln}
+% Allgemeine Verhaltensregeln
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Sämtliche Gesetze der Bundesrepublik Deutschland gelten sowohl innerhalb der Missionen als auch auf allen öffentlichen Kanälen der 1st Aircat Division.
-    \item Extremistische Inhalte, auch wenn diese gegebenenfalls durch Gesetze der Bundesrepublik Deutschland gedeckt sind, werden nicht geduldet. Gleiches gilt für Sexismus, Rassismus und jede andere Ideologie, die dem gleichberechtigten und fairen Umgang zwischen Menschen entgegensteht.
-    \item Das Vortäuschen einer anderen Identität oder das Ausgeben als Mitglied des (erweiterten) Stabs und/oder des Adminteams ist zu jedem Zeitpunkt verboten.
-    \item Bugusing, Trolling und andere Aktivitäten, die den guten Umgang miteinander nicht ermöglichen, sowohl innerhalb als auch außerhalb der Missionen, sind verboten.
-    \item Es gelten die Grundsätze: „Unwissenheit schützt nicht vor Strafe.“ und „In dubio pro reo.“ („Im Zweifel für den Angeklagten.“)
-\end{enumerate}
+\input{1_Allgemeine_Verhaltensregeln/1_Allgemeine_Verhaltensregeln.tex}
 
-\section*{\S~2 Funktion und Struktur} 
-\label{sec:funktion_und_struktur}
-\addcontentsline{toc}{section}{\S~2 Funktion und Struktur}
+% Funktion, Struktur, Organe und Posten
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Bei der 1st Aircat Division (kurz 1ACD) handelt es sich um eine primär deutschsprachige Arma-3-Unit.
-    \item Fokus der 1st Aircat Division ist das Organisieren und Durchführen von Arma-3-Missionen. Andere Spiele können in diesem Rahmen ebenfalls organisiert werden. Hier müssen lediglich \hyperref[sec:allgemeine_verhaltensregeln]{\S~1}, \hyperref[sec:mitgliedschaft]{\S~4} und \hyperref[sec:umgang_mit_regelverstoeßen]{\S~8} dieser Satzung beachtet werden.
-    \item Das oberste Organ der 1st Aircat Division ist die Mitgliederversammlung. Der Stab und der erweiterte Stab unterstützen die Leitung in allen administrativen Aufgaben und der Entscheidungsfindung.
-\end{enumerate}
+\inputsection{2_Funktion_Struktur_Organe_Posten/2_Funktion_und_Struktur.tex}
 
-\section*{\S~2a Leitung}
-\label{sec:leitung}
-\addcontentsline{toc}{section}{\S~2a Leitung}
+\input{2_Funktion_Struktur_Organe_Posten/2a_Leitung.tex}
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Die Leitung der 1st Aircat Division besteht aus einem Unit-Leiter und seinem Stellvertreter, genannt Spieß.
-    \item Der Unit-Leiter hat einen Offiziersdienstgrad inne.
-    \item Der Spieß hat mindestens den Dienstgrad Stabsfeldwebel, maximal den Dienstgrad Leutnant inne. Damit der Spieß den Dienstgrad Leutnant inne haben kann, muss der Unit-Leiter den Dienstgrad Hauptmann inne haben.
-    \item Die Leitung tagt bei Bedarf, mindestens aber einmal im Monat.
-    \item Regeländerungen und administrative Entscheidungen der Leitung gelten solange, bis eine andere Entscheidung oder die Mitgliederversammlung diese aufhebt.
-    \item Die Leitung ist dazu verpflichtet, auf Anfrage von mindestens einem Mitglied Entscheidungsprozesse offenzulegen.
-    \item Die Leitung ist dazu verpflichtet, einmal im Jahr einen Bericht mit Statistiken zur Mitgliederzahl, Missionen, Beförderungen, Ausbildungen und sonstigen interessanten Ereignissen vorzustellen.
-\end{enumerate}
+\input{2_Funktion_Struktur_Organe_Posten/2b_Wahl_der_Leitung.tex}
 
-\section*{\S~2b Wahl der Leitung} 
-\label{sec:wahl_derleitung}
-\addcontentsline{toc}{section}{\S~2b Wahl der Leitung}
+\input{2_Funktion_Struktur_Organe_Posten/2c_Stab_und_erweiterter_Stab.tex}
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Die Leitung wird durch die Mitgliederversammlung mit einer Zweidrittelmehrheit für die Dauer von einem Kalenderjahr gewählt und befördert.
-    \item Es gibt keine Obergrenze für Amtszeiten. Auch können beliebig viele Amtszeiten hintereinander erfolgen.
-    \item Um für einen Leitungsposten kandidieren zu können, muss ein Mitglied mindestens 24 Monate Mitglied gewesen sein und darf am Wahltag nicht länger als vor 12 Monate zuletzt ein passives Mitglied gewesen sein. Zudem muss das Mitglied die Gruppenführer-Kampfrolle, eine abgeschlossene Zeus/Missionsbauer-Ausbildung und eine weitere Sonder-Kampfrolle besitzen. Eine vorherige Mitarbeit im Stab ist empfehlenswert.
-    \item Sollte der Unit-Leiter vor Ende seiner Amtszeit nicht mehr in der Lage sein, sein Amt auszuführen, übernimmt der Spieß die Leitung der Unit. Der Posten des Unit-Leiters bleibt bis zur nächsten Wahl unbesetzt. Diese sollte zum nächst möglichen Termin durchgeführt werden.
-    \item Sollte der Spieß vor Ende seiner Amtszeit nicht mehr in der Lage sein, sein Amt auszuführen, bleibt der Posten des Spieß bis zur nächsten Wahl unbesetzt. Diese sollte zum nächst möglichen Termin durchgeführt werden.
-    \item Die Amtszeit beginnt am 01. Januar eines Jahres und endet am 31. Dezember des gleichen Jahres. Wird im Verlauf eines Kalenderjahres eine andere Leitung gewählt, so ist dennoch am Termin beschrieben in \S~2e Absatz 4 \ref{itm:regularer_Termin} eine Wahl durchzuführen.
-\end{enumerate}
+\input{2_Funktion_Struktur_Organe_Posten/2d_Funktionen_im_erweiterten_Stab.tex}
 
-\section*{\S~2c Stab und erweiterter Stab}
-\label{sec:stab_und_erweiterter_stab}
-\addcontentsline{toc}{section}{\S~2c Stab und erweiterter Stab}
+\input{2_Funktion_Struktur_Organe_Posten/2e_Mitgliederversammlung.tex}
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Der Stab und der erweiterte Stab der 1st Aircat Division unterstützen die Leitung in allen administrativen Aufgaben und Entscheidungsprozessen.
-    \item Der Stab tagt bei Bedarf, mindestens aber einmal im Quartal. Der erweiterte Stab tagt ebenfalls bei Bedarf, mindestens aber einmal im Halbjahr.
-    \item Der Stab besteht aus der Leitung, einem Gefreiten vom Dienst (GvD) in einem Manschaftsdienstgrad ab Gefreiter und, sofern mindestens ein Mitglied den Dienstgrad Unteroffizier oder Stabsunteroffizier innehat, einem Unteroffizier vom Dienst (UvD) im Rang des Unteroffiziers oder Stabsunteroffiziers. Der erweiterte Stab besteht aus dem Stab sowie allen weiteren aktiven Unteroffizieren mit Portepee und Unteroffizieren ohne Portepee. Die Mitglieder des Stabes verzichten, sofern nicht anders festgelegt, während ihrer Dienstzeit auf ihr Recht, Einspruch gegen Entscheidungen des Stabes oder des erweiterten Stabes einzulegen. Die Mitglieder des erweiterten Stabes verzichten, sofern nicht anders festgelegt, während ihrer Dienstzeit auf ihr Recht, Einspruch gegen Entscheidungen des erweiterten Stabes einzulegen.
-\item Der Gefreite vom Dienst (GvD) wird immer in der Nachbesprechung der letzten Mission in einem Quartal oder im Rahmen einer Mitgliederversammlung durch die aktive Mannschaft gewählt und tritt seinen Dienst zum ersten Tag des neuen Quartals an.
+% Abstimmungen, Wahlen, Abwahl und Rücktritt
 
-\begin{enumerate}[label=(\Alph*)]
+\inputsection{3_Abstimmungen_Wahlen_Abwahl_Ruecktritt/3_Abstimmungen_und_Wahlen.tex}
 
-    \item Der Gefreite vom Dienst (GvD) repr\"{a}sentiert w\"{a}hrend seiner Amtszeit die Mannschaft. Er verzichtet w\"{a}hrend seiner Amtszeit auf sein Recht, Beschwerde gegen Einzelpersonen, die einen Mannschaftsdienstgrad innehaben, einzureichen oder Einspruch gegen Entscheidungen des Stabes einzulegen, sofern ihm dies nicht durch ein Mitglied in einem Mannschaftsdienstgrad aufgetragen wurde oder es sich um einen schweren Regelversto\ss{} nach \S~8 Absatz \ref{itm:schwerer_verstoß} handelt.
-    
-    \item Die Unit-Leitung hat f\"{u}r diese Wahl den Posten der Wahleitung inne.
-    
-    \item Die Wahlleitung erinnert die Mitglieder der Unit zu einem geeigneten Zeitpunkt, sp\"{a}testens jedoch in der Nachbesprechung der letzten Mission vor der Wahl an die bevorstehende Wahl des Gefreiten vom Dienst (GvD).
+\input{3_Abstimmungen_Wahlen_Abwahl_Ruecktritt/3a_Abwahl_und_Ruecktritt.tex}
 
-    \item Die Wahl in der Nachbesprechung der letzten Mission in einem Quartal kann auch in einem hybriden Verfahren durchgef\"{u}hrt werden. In diesem Verfahren werden die Vorschl\"{a}ge in Anwesenheit abgegeben, w\"{a}hrend die eigentliche Wahl per 72-st\"{u}ndiger Abstimmung \"{u}ber eine Drittplattform durchgef\"{u}hrt wird.
+% Mitgliedschaft, Reserve und außer Dienst
 
-    \item Eine Wahl in Abwesenheit ist zul\"{a}ssig. Vorschl\"{a}ge f\"{u}r Mitglieder, die nicht anwesend sind, m\"{u}ssen sp\"{a}testens zu Beginn der Mission, in deren Nachbesprechung die Wahl stattfindet, oder zu Beginn der Mitgliederversammlung bei der Wahlleitung eingegangen sein.
+\inputsection{4_Mitgliedschaft_Reserve_ausserDienst/4_Mitgliedschaft.tex}
 
-    \item Mitglieder, die den Dienstgrad Korporal oder Stabskorporal innehaben, k\"{o}nnen nur durch eigenen Vorschlag und unter Ber\"{u}cksichtigung ihrer sonstigen Verpflichtungen, die sie durch ihren Dienstgrad innehaben, f\"{u}r den Posten des Gefreiten vom Dienst (GvD) kandidieren.
+\input{4_Mitgliedschaft_Reserve_ausserDienst/4a_Reserve_und_ausserDienst.tex}
 
-    \item Jede vorgeschlagene Person hat das Recht, ihrer Kandidatur zu widersprechen. In diesem Fall ist die Kandidatur unwirksam.
+% Dienstgrade, Beförderungen und Dienstgradschlüssel
 
-    \item Es gibt keine Obergrenze f\"{u}r Amtszeiten, allerdings d\"{u}rfen keine zwei Amtszeiten aufeinander folgen.
+\inputsection{5_Dienstgrade_Befoerderungen_Dienstgradschluessel/5_Dienstgrade.tex}
 
-    \item Der bisherige Gefreite vom Dienst (GvD) bleibt so lange in seinem Amt, bis ein neuer Gefreiter vom Dienst (GvD) gew\"{a}hlt wurde. 
-    
-    \end{enumerate}    
-\item Der Unteroffizier vom Dienst (UvD) wird immer in der Nachbesprechung der letzten Mission in einem Quartal oder im Rahmen einer Mitgliederversammlung durch die Leitung ernannt und tritt seinen Dienst zum ersten Tag des neuen Quartals an. Es gibt keine Obergrenze für Amtszeiten, allerdings dürfen keine zwei Amtszeiten aufeinander folgen, solange sich dies durch die Anzahl an Unteroffizieren vermeiden lässt.
-\end{enumerate}
+\input{5_Dienstgrade_Befoerderungen_Dienstgradschluessel/5a_Befoerderungen.tex}
 
-\section*
-{\S~2d Funktionen im erweiterten Stab} 
-\label{sec:funktionen_im_erweiterten_stab}
-\addcontentsline{toc}{section}{\S~2d Funktionen im erweiterten Stab}
+\input{5_Dienstgrade_Befoerderungen_Dienstgradschluessel/5b_Dienstgradschluessel.tex}
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Die Unteroffiziere mit Portepee erfüllen im Stab besondere Aufgaben. Diese sind im Nachfolgenden erklärt. Jeder Feldwebel muss eine Funktion besetzen, aber nicht jede Funktion muss besetzt sein. Jeder Feldwebel kann maximal eine Funktion gleichzeitig ausüben.
-    \begin{enumerate}[label=(\Alph*)]
-        \item \textbf{Der S1-Feldwebel (Innere Führung)} ist Vorsitzender des erweiterten Stabes. Seine Aufgabe besteht darin, die Leitung, den Stab und sonstige zu seiner Amtszeit bestehende Gremien zu kontrollieren. Er leitet außerdem den erweiterten Stab. Sind Unit-Leiter und Spieß abwesend und/oder die Posten nicht besetzt, so übernimmt der S1-Feldwebel bis der Unit-Leiter und der Spieß anwesend und/oder die Posten wieder besetzt sind die Leitung der Unit. Er dient außerdem als oberste Instanz zur Einreichung von Beschwerden gegen die Leitung. Er ist kein Mitglied im Stab.
-        \item \textbf{Der Personal-Feldwebel (PersFw)} unterstützt den Gefreiten vom Dienst (GvD) in seiner Funktion als Repräsentant der Mannschaft im erweiterten Stab. Außerdem kontrolliert er den Gefreiten vom Dienst (GvD). Während seiner Amtszeit verzichtet er auf sein Recht, Beschwerde gegen Einzelpersonen, die einen Mannschaftsdienstgrad inne haben, einzureichen. Außerdem unterstützt er die Leitung bei der Mitgliederverwaltung. Er ist kein Mitglied im Stab.
-        \item \textbf{Der S6-Feldwebel (Technik)} unterstützt die Leitung in technischen Fragen. Er verwaltet sämtliche öffentlichen Kanäle der 1st Aircat Division administrativ mit. Außerdem unterstützt er Mitglieder bei technischen Problemen im Zusammenhang mit Arma 3 oder den im Modpack festgelegten Mods. Er ist kein Mitglied im Stab.
-    \end{enumerate}
-    \item Die Funktionen der Feldwebel werden entsprechend der Reihenfolge, wie sie in der Satzung definiert sind, besetzt.
-    \item Die Funktionen werden durch Wahl im erweiterten Stab besetzt. Wahlberechtigt sind alle Mitglieder des erweiterten Stabs. Aufgestellt werden können nur Feldwebel. Die Wahl findet jeweils nach der ersten Mission in einem Quartal statt. Es können beliebig viele Amtszeiten, aber nicht mehr als vier, aufeinander folgen, sofern sich dies durch die Anzahl der Feldwebel verhindern lässt. Diese Beschränkung gilt nicht für den S6-Feldwebel, da hier eine besondere technische Expertise notwendig ist. Für die Durchführung von Wahlen gilt \hyperref[sec:abstimmungen_und_wahlen]{\S~3}. Die Wahlleitung übernimmt der Unteroffizier vom Dienst (UvD).
-\end{enumerate}
+% Missionen und Modpack
 
-\section*{\S~2e Mitgliederversammlung}
-\label{sec:mitgliederversammlung}
-\addcontentsline{toc}{section}{\S~2e Mitgliederversammlung}
+\inputsection{6_Missionen_Modpack/6_Missionen.tex}
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Die Mitgliederversammlung besteht aus allen aktiven Mitgliedern, allen Mitgliedern der Reserve und allen Mitgliedern außer Dienst der 1st Aircat Division.
-    \item Aktives Wahlrecht haben alle Mitglieder der 1st Aircat Division. Ein passives Wahlrecht haben nur die aktiven Mitglieder der 1st Aircat Division.
-    \item \label{itm:zusammentretten_mitgliederversammlung} Die Mitgliederversammlung tritt bei Bedarf zusammen, mindestens aber einmal im Kalenderjahr. Damit die Mitgliederversammlung zusammentritt, muss die Leitung diese einberufen. Auf Verlangen von mindestens einem Drittel der Mitglieder muss die Leitung die Mitgliederversammlung einberufen. Sollte die Mitgliederversammlung auf einem öffentlichen Kanal der 1st Aircat Division zusammentreten, so muss diese mindestens 7 Tage im Voraus angekündigt werden. Sollten lediglich Abstimmungen und Wahlen über einen anderen Kanal durchgeführt werden, müssen diese für mindestens 7 Tage offen stehen. Anträge für die Mitgliederversammlung müssen spätestens 7 Tage vor der öffentlichen Einladung bei der Unit-Leitung eingegangen sein. Ansonsten ist die Einbringung eines Antrages nur noch während der Mitgliederversammlung möglich. Die Person, die einen Antrag einbringt, oder eine von ihr beauftragte dritte Person, muss anwesend sein. Für Anträge muss es während der Mitgliederversammlung die Möglichkeit zur Diskussion geben.
-    \item Die Mitgliederversammlung tritt entweder an einem durch die Leitung angesetzten Termin auf einem öffentlichen Kanal der 1st Aircat Division zusammen, oder durch mehrere Abstimmungen über andere Kanäle, in denen über die zur Abstimmung stehenden Themen abgestimmt wird, beziehungsweise die nötigen Wahlen durchgeführt werden.
-    \begin{enumerate}[label=(\Alph*)]
-        \item \label{itm:regularer_Termin}Der Termin für die reguläre, jährliche Mitgliederversammlung muss einen Monat vor dem geplanten Termin von der Leitung dem erweiterten Stab vorgelegt und von diesem genehmigt werden. Existiert kein erweiterter Stab, so ist dieser Termin dem Stab vorzulegen. Der Termin muss dann zeitnah den Mitgliedern in geeigneter Art und Weise kommuniziert werden, sodass alle Fristen nach \S~2e Absatz \ref{itm:zusammentretten_mitgliederversammlung} eingehalten werden können. Der Termin sollte in den Dezember des jeweiligen Kalenderjahres und möglichst mindestens eine Woche vor Heiligabend liegen. Diese Mitgliederversammlung sollte in Präsenz durchgeführt werden.
-    \end{enumerate}
-    \item Ob eine Entscheidung durch die Mitgliederversammlung abgesegnet werden muss, entscheidet die Leitung. Alternativ können binnen 72 Stunden nach Bekanntgabe einer Entscheidung die Mitglieder der 1st Aircat Division eine Mitgliederversammlung verlangen. Eine Mitgliederversammlung findet dann statt, wenn mindestens ein Drittel der Mitglieder diesen Antrag unterstützen. Änderungen an dieser Satzung (ausgenommen redaktioneller Änderungen), die Wahl der Leitung oder die Beförderung der Leitung müssen durch die Mitgliederversammlung vorgenommen werden.
-    \item Die Mitgliederversammlung ist beschlussfähig, wenn mindestens ein Drittel + 1 aller Mitglieder anwesend ist. Hierbei wird stets aufgerundet. Als anwesend gilt ein Mitglied, wenn es entweder physisch anwesend ist oder sich an einer Abstimmung beteiligt hat. Die Beschlussfähigkeit muss überprüft werden. Handelt es sich bei einem Drittel + 1 aller Mitglieder um passive Mitglieder, so ist die Mitgliederversammlung bei Anwesenheit einer Hälfte + 1 der aktiven Mitglieder beschlussfähig.
-    \item\label{itm:satzungsaenderungen} Für Änderungen an dieser Satzung ist eine Zweidrittelmehrheit der abgegebenen Stimmen nötig. Redaktionelle Änderungen sind davon nicht betroffen. Bei allen anderen Entscheidungen und Beförderungen ist eine relative Mehrheit ausreichend. Satzungsänderungen treten sofort nach Bekanntgabe des Abstimmungsergebnisses in Kraft. Die neue Version der Satzung ist unverzüglich auf allen öffentlichen Kanälen der 1st Aircat Division zu veröffentlichen und alle Mitglieder sind darauf hinzuweisen.
-    \item Anträge zur Tagesordnung einer Mitgliederversammlung sind unzulässig.
-\end{enumerate}
+\input{6_Missionen_Modpack/6a_Modpack.tex}
 
-\section*{\S~3 Abstimmungen und Wahlen}
-\label{sec:abstimmungen_und_wahlen}
-\addcontentsline{toc}{section}{\S~3 Abstimmungen und Wahlen}
+% Roleplay
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Abstimmungen und Wahlen müssen Allgemein, Unmittelbar, Frei, Geheim und Gleich sein.
-    \item Abstimmungen und Wahlen finden entweder im Rahmen der Mitgliederversammlung statt, oder werden von der Leitung, vom Stab, oder vom S1-Feldwebel angesetzt.
-    \item Für eine Abstimmung oder Wahl muss ein Wahlleiter bestimmt sein.
-    \begin{enumerate}[label=(\Alph*)]
-        \item\label{itm:wahlleitung_fall1} Eine Person, die zur Wahl steht, kann nicht die Funktion des Wahlleiters übernehmen. Wenn der Posten des S1-Feldwebels besetzt ist, übernimmt dieser, wenn nicht von mindestens ein Drittel der anwesenden Mitglieder anderes gefordert, bei allen Abstimmungen und Wahlen die Funktion des Wahlleiters. Ist der Posten des S1-Feldwebels nicht besetzt, übernimmt die Unit-Leitung, also Unit-Leiter und Spieß zusammen, die Wahlleitung.
-        \item\label{itm:wahlleitung_fall2} Steht eine Wahl zur Unit-Leitung an und der Posten des S1-Feldwebels ist nicht besetzt, oder die Person, die den Posten des S1-Feldwebels innehat, steht zur Wahl, so wird durch die Mitgliederversammlung die Funktion des Wahlleiters bestimmt.
-        \item Die Mitgliederversammlung kann auf Verlangen von mindestens ein Drittel der anwesenden Mitglieder verlangen, dass ein anderer Wahlleiter als in \S~3 Absatz 3\ref{itm:wahlleitung_fall1} und 3\ref{itm:wahlleitung_fall2} bestimmt wird. Dies geschieht durch eine öffentliche Abstimmung.
-    \end{enumerate}
-    \item Abstimmungen und Wahlen müssen mindestens 72 Stunden vor Abstimmungsschluss angekündigt werden, wenn diese nicht unter die Mitgliederversammlung fallen.
-    \item Abstimmungen und Wahlen können über eine Drittplattform (bspw. strawpoll.com), Abstimmungen im Discord, einem Hammelsprung in Arma 3, oder durch ein anderes geeignetes Verfahren durchgeführt werden.
-    \item Damit eine Abstimmung oder Wahl außerhalb der Mitgliederversammlung beschlussfähig ist, müssen sich mindestens ein Drittel aller Mitglieder beteiligen. Die Beschlussfähigkeit muss nicht überprüft werden.
-    \item Abstimmungen können nur die Möglichkeiten „Ja“, „Nein“, oder „Enthaltung“ (oder andere Formulierungen dieser Möglichkeiten) besitzen. Enthaltungen werden bei der Berechnung des Ergebnisses berücksichtigt.
-    \item Wahlen müssen immer personenbezogen sein.
-    \item Wahlen und Abstimmungen, die keiner anderen Regelung unterliegen brauchen zum bestehen eine relative Mehrheit.
-    \item Kann keine Entscheidung getroffen werden, findet eine auf 72 Stunden beschränkte Wahl über einen öffentlichen Kanal der 1st Aircat Division statt. Die Kandidaten für diese Wahl müssen sich direkt im Anschluss an die gescheiterte Wahl bei der Wahlleitung melden. Kann auch hier keine Entscheidung getroffen werden, so wird nach diesem System so lange gewählt, bis es eine Entscheidung gibt.
-    \item Bei einer außerordentlichen Wahl übernimmt die gewählte Person den Posten mit Bekanntgabe des Ergebnisses. Die Amtszeit endet zum regulären Zeitpunkt, sofern keine Sonderreglungen existieren.
-\end{enumerate}
+\inputsection{7_Roleplay/Roleplay.tex}
 
-\section*{\S~3a Abwahl und Rücktritt}
-\label{sec:abwahl_ruecktritt}
-\addcontentsline{toc}{section}{\S~3a Abwahl und Rücktritt}
+% Regelverstöße und Beschwerden
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Die Abwahl wird im Folgenden geregelt.
-    \begin{enumerate}[label=(\Alph*)]
-      \item Eine Abwahl kann für jeden gewählten Posten der Unit durchgeführt werden und ist nur im Rahmen einer Mitgliederversammlung möglich.
-      \item Eine Abwahl kann nur durch den S1-Feldwebel vorgeschlagen werden. Damit diese eingeleitet wird, benötig er zusätzlich die Zustimmung von 25 \% der Mitglieder. Ist der S1-Feldwebel vakant, so kann eine Abwahl nur durch den Gefreiten vom Dienst vorgeschlagen werden. Der Gefreite vom Dienst kann in diesem Fall auf Vorschlag von 25 \% der Mitglieder abgewählt werden. Die Abwahl des S1-Feldwebels kann in jedem Fall nur durch den Gefreiten vom Dienst vorgeschlagen werden.
-      \item Die Abwahl ist erfolgreich, wenn sie eine Zweidrittelmehrheit erreicht.
-      \item Bei erfolgreicher Abwahl scheidet der Amtsinhaber sofort aus seinem Amt aus und eine Neuwahl muss innerhalb von 14 Tagen durchgeführt werden. Der Posten bleibt so lange vakant
-      \item Falls eine Abwahl scheitert, kann frühestens nach drei Monaten erneut ein Antrag auf Abwahl des Amtsinhabers gestellt werden.
-    \end{enumerate}
-    \item Der Rücktritt wird im Folgenden geregelt.
-      \begin{enumerate}[label=(\Alph*)]
-      	\item Ein Amtsinhaber kann zu jedem Zeitpunkt freiwillig zurücktreten.
-	\item Die Neuwahl muss innerhalb von 14 Tagen stattfinden.
-    \end{enumerate}
-\end{enumerate}
-	
-\section*{\S~4 Mitgliedschaft} 
-\label{sec:mitgliedschaft}
-\addcontentsline{toc}{section}{\S~4 Mitgliedschaft}
+\inputsection{8_Regelverstoesse_Beschwerden/8_Umgang_mit_Regelverstoessen.tex}
 
-\begin{enumerate}[label=(\arabic*)]
-	\item Die Mitgliedschaft in der 1st Aircat Division ist freiwillig. 
-    	\item\label{itm:voraussetzungen_mitgliedschaft} Für eine Mitgliedschaft muss eine Person mindestens 14 Jahre alt sein, ein Headset, eine legale Version von Arma 3, ein Discord-Account und Teamspeak 3 besitzen. Als Mitglied muss man dem offiziellen Discordserver der 1st Aircat Division beigetreten sein. 
-    \begin{enumerate}[label=(\Alph*)]
-        \item Nach \href{https://www.gesetze-im-internet.de/juschg/__12.html}{\S~12} und \href{https://www.gesetze-im-internet.de/juschg/__14.html}{\S~14} des Jugendschutzgesetzes der Bundesrepublik Deutschland dürfen auch Personen unter 16 Jahren (FSK von Arma 3) Arma 3 spielen, sofern die Erziehungsberechtigten damit einverstanden sind und Arma 3 auf legale Art und Weise erworben wurde. Die 1st Aircat Division erlegt sich als Mindestalter für einen Beitritt das Alter von 14 Jahren auf, davon ausgehend, dass die Erziehungsberechtigten informiert sind. Die Leitung führt gerne ein Gespräch mit Erziehungsberechtigten von Minderjährigen bzgl. dieser Thematik.        
-        \item Gastspieler obliegen den gleichen Voraussetzungen. Der Leitung steht es frei zu entscheiden, ob eine Person als Gastspieler teilnehmen darf. Eine Beitrittssperre beinhaltet automatisch, wenn nicht anders festgelegt, das Verbot als Gastspieler an Missionen teilzunehmen.
-    \end{enumerate}
-    \item Die Mitgliedschaft muss über ein dafür geeinigtes Formular und/oder einen öffentlichen Kanal der 1st Aircat Division beantragbar und ablegbar sein. Sofern alle Bedingungen aus \S~4 Absatz \ref{itm:voraussetzungen_mitgliedschaft} erfüllt sind und eine Person nicht einer Beitrittssperre unterliegt, muss einem Beitrittsantrag stattgegeben werden. Sind nicht alle Bedingungen aus \S~4 Absatz \ref{itm:voraussetzungen_mitgliedschaft} erfüllt, so darf einem Beitrittsantrag nicht stattgegeben werden. Es ist maximal ein Mitgliedsantrag pro Person pro Monat möglich.    
-    \begin{enumerate}[label=(\Alph*)]
-        \item\label{itm:ausschluss_aus_der_unit_durch_falsche_angaben} Stellt sich heraus, dass sich die Mitgliedschaft durch Falschbehauptungen im Beitrittsantrag erschlichen wurde, führt dies zum Ausschluss aus der Unit und einer Beitrittssperre von mindestens 6 Monaten. Ein Mitglied muss der Leitung unverzüglich mitteilen, wenn es vermutet, dass ein anderes Mitglied die Mitgliedschaft erschlichen hat. Geschieht dies nicht, wird dieses Mitglied nach \S~8 Absatz \ref{itm:strafe_schwerer_verstoß} bestraft.
-    \end{enumerate}
-    \item Ein Mitglied verpflichtet sich zur Wahrung dieser Satzung und der regelmäßigen Teilnahme an Missionen.
-    \item Jedes Mitglied hat das Recht, bei Entscheidungen angehört zu werden und Einfluss auf wichtige Entscheidungen zu nehmen. Auch kann sich jedes Mitglied, sofern es die nötigen Voraussetzungen erfüllt, für bestimmte Posten zur Wahl stellen lassen. Auch hat jedes Mitglied das Recht, Einspruch gegen Entscheidungen der Leitung einzulegen.   
-    \begin{enumerate}[label=(\Alph*)]
-        \item Einspruch gegen solche Entscheidungen muss innerhalb von 72 Stunden nach Bekanntmachung dieser Entscheidung eingelegt werden.      
-        \item Jedes Mitglied darf, sofern nicht anders festgestellt, Beschwerde an der dafür zuständigen Stelle gegen Einzelpersonen aufgrund von Regelverstößen, dem Verhalten seiner Person, oder anderer Gründe, die die Person, die Beschwerde einreicht, als Grund ansieht, einreichen. Genaueres zu Beschwerden gegen Einzelpersonen regelt \hyperref[sec:umgang_mit_beschwerden_gegen_einzelpersonen]{\S~8a}.
-    \end{enumerate}
-    \item Als Jäger ist man lediglich ein Mitglied auf Probe. Mitglieder auf Probe haben kein passives Wahlrecht. Schwerwiegende Regelverstöße während der Jägerzeit haben den Ausschluss aus der Unit und eine Beitrittssperre von 6 Monaten zur Folge. Nach der Teilnahme an drei Missionen (hier können Missionen, an denen als Gastspieler teilgenommen wurde, angerechnet werden) und der erfolgreichen Ausbildung zur Kampfrolle Schütze wird ein Mitglied zum Gefreiten befördert und ist damit vollwertiges Mitglied.    
-    \begin{enumerate}[label=(\Alph*)]
-        \item Schafft es ein Mitglied auf Probe nicht, innerhalb von 3 Monaten alle Voraussetzungen zur Beförderung in den Dienstgrad Gefreiter zu erfüllen, wird dieses aus der Unit ausgeschlossen. Es wird eine Beitrittssperre von 6 Wochen verhängt. Als Gastspieler darf weiterhin an Missionen teilgenommen werden.
-    \end{enumerate}
-    \item Die Mitgliedschaft kann nur durch freiwilligen Austritt abgegeben werden. Mitglieder können aufgrund eines oder mehrerer in der Satzung festgelegter Gründe ausgeschlossen werden. Abgabe der Mitgliedschaft oder Ausschluss aus der Unit haben zur Folge, dass alle Dienstgrade und Ausbildungen verloren gehen und bei Wiedereintritt neu erworben werden müssen. Wird ein Mitglied aufgrund eines anderen Grundes als in \S~4 Absatz \ref{itm:ausschluss_aus_der_unit_durch_falsche_angaben} beschrieben aus der Unit ausgeschlossen, so ist auch ein permanenter Ausschluss möglich. Ein selbstständiges Verlassen des Discords ohne eigenständige Kontaktaufnahme mit der Leitung innerhalb von 72 Stunden nach Verlassen des Discords kommt einem Austritt gleich.
-    \item Mitglieder, welche für mehr als 12 Monate an keiner Mission teilgenommen haben, werden aus der Unit ausgeschlossen. Es wird eine Beitrittssperre von 6 Wochen verhängt. Als Gastspieler darf weiterhin an Missionen teilgenommen werden.
-\end{enumerate}
+\input{8_Regelverstoesse_Beschwerden/8a_Umgang_mit_Beschwerden_gegen_Einzelpersonen.tex}
 
-\section*{\S~4a Reserve und au\ss{er}Dienst} 
-\label{sec:reserve_und_außer_dienst}
-\addcontentsline{toc}{section}{\S~4a Reserver und außer Dienst}
+% Kampfrollen und Ausbilder
 
-\begin{enumerate}[label=(\arabic*)]
-    \item In der Reserve sind alle passiven Mitglieder vereinigt. Mitglieder außer Dienst gelten ebenfalls als passive Mitglieder.    
-    \item Die Reserve dient dazu, zwischen Mitgliedern, die regelmäßig an Missionen teilnehmen und Spielern, die nicht regelmäßig an Missionen teilnehmen, zu unterscheiden.    
-    \item \label{itm:ausser_dienst}Außer Dienst sind alle Mitglieder, die beim Verlassen der 1st Aircat Division oder beim Wechsel in die passive Mitgliedschaft einen Dienstgrad innehatten, der ausschließlich durch die Wahl zu einem Posten erreicht werden kann. Darüber hinaus können Mitglieder durch Beschluss der Mitgliederversammlung auf Vorschlag eines Mitgliedes zu einem Mitglied außer Dienst ernannt werden. Diese Ernennung dient der Ehrung von Mitgliedern, die sich besonders verdient gemacht haben. Mitglieder außer Dienst können kein Ausbilder sein und haben auch kein passives Wahlrecht. Ihre Stimmen bei Abstimmungen und Wahlen zählen nur, wenn sich mindestens ein Drittel der aktiven Mitglieder beteiligt hat.  
-    \begin{enumerate}[label=(\Alph*)] 
-		\item Ferner folgt aus \S~4a Absatz \ref{itm:ausser_dienst}, dass der aktive Unit-Leiter und Spie\ss{} automatisch bei geplanten Verlassen, oder Wechsel in die passive Mitgliedschaft au\ss{er} Dienst gestellt werden. Zus\"{a}tzlich werden Mitglieder, die die Dienstgradgruppe der Unteroffiziere ohne Portepee oder h\"{o}her durch regul\"{a}re Bef\"{o}rderungen erreicht haben, unabh\"{a}hngig von ihrem aktuellen Dienstgrad, au\ss{er} Dienst gestellt und in den h\"{o}chsten Dienstgrad, den sie durch regul\"{a}re Bef\"{o}rderungen erreicht haben, bef\"{o}rdert , wenn das Verlassen der Unit bevorsteht.
-		\item Die Leitung kann beim Stab beantragen, ein Mitglied f\"{u}r eine bestimmte Zeit, oder auch dauerhaft, von dieser Regelung ausschließen. F\"{u}r diese Entscheidung ist eine Zweidrittelmehrheit im Stab n\"{o}tig. Der S1-Feldwebel, sofern nicht vakant, muss informiert werden und darf verlangen diesen Antrag im erweiterten Stab zu entscheiden. Auch hier ist eine Zweidrittelmehrheit n\"{o}tig.
-	\end{enumerate}
-    \item Reservisten können nur vollwertige Mitglieder werden.    
-    \item\label{itm:versetzung_reserve} Reservist wird man durch freiwillige Versetzung in die Reserve, durch automatische Versetzung in die Reserve, sollte man 6 Missionen infolge ohne Entschuldigung an keiner Mission teilgenommen haben, oder durch automatische Versetzung in die Reserve, sollte man innerhalb eines Quartals an insgesamt mehr als 50\% der Missionen ohne Entschuldigung nicht teilgenommen haben.    
-    \item Mitglieder der Reserve können alle Mitglieder sein. Mitglieder, die als Reservist einen anderen Dienstgrad als Gefreiter, Obergefreiter, Hauptgefreiter, Stabsgefreiter, oder Oberstabsgefreiter inne haben, erhalten bei Wiedereintritt in den aktiven Dienst den Mannschaftsdienstgrad, den sie entsprechend ihrer Dienstzeit als aktives Mitglied inne gehabt hätten. Dies gilt nur, wenn die Dienstgradgruppe, in der sich das betroffene Mitglied befindet, über den in der Satzung vorgesehenen Weg erreicht wurde. Besondere Funktionen, wie Gefreiter vom Dienst (GvD), oder Unteroffizier vom Dienst (UvD), können nicht durch einen Reservisten oder ein Mitglied außer Dienst wahrgenommen werden.   
-    \item Aus der Reserve oder dem Status außer Dienst kann man nur auf persönliches Bitten versetzt werden. Dieser Bitte ist stattzugeben. Nach Versetzung aus der Reserve oder dem Status außer Dienst muss ein Mitglied für mindestens vier Missionen teilnehmen, um sein passives Wahlrecht zu erhalten.    
-    \item Reservisten haben kein passives Wahlrecht.    
-    \item Reservisten sind von Beförderungen ausgeschlossen und dürfen nur in Sonderfällen Ausbilder einer Kampfrolle sein. An Missionen und Ausbildungen können sie weiterhin teilnehmen. Sollten alle Slots des Servers für eine Mission voll sein, werden aktive Mitglieder und Mitglieder außer Dienst vor Mitgliedern der Reserve bevorzugt.   
-    \item Mitglieder außer Dienst sind von Beförderungen ausgeschlossen und dürfen kein Ausbilder einer Kampfrolle sein. An Missionen und Ausbildungen können sie weiterhin teilnehmen. Sollten alle Slots des Servers für eine Mission voll sein, werden aktive Mitglieder vor Mitgliedern außer Dienst bevorzugt.    
-    \item Die Mitgliedschaft als Reservist ist durch den Zusatz d.R. hinter dem Kürzel des Dienstgrades im Arma 3 Namen kenntlich zu machen.   
-    \item Die Mitgliedschaft außer Dienst ist durch den Zusatz a.D. hinter dem Kürzel des Dienstgrades im Arma 3 Namen kenntlich zu machen.
-\end{enumerate}
+\inputsection{9_Kampfrollen_Ausbilder/9_Kampfrollen.tex}
 
-\section*{\S~5 Dienstgrade}
-\label{sec:dienstgrade}
-\addcontentsline{toc}{section}{\S~5 Dienstgrade}
+\input{9_Kampfrollen_Ausbilder/9a_Ausbilder.tex}
 
-\begin{enumerate}[label=(\arabic*)]
-    \item Die 1st Aircat Division übernimmt die Bezeichnung der Dienstgrade der Bundeswehr, aufgrund der deutschsprachigen Ausrichtung der 1st Aircat Division und dem Fokus auf Semi-Milsim.    
-    \item Die Dienstgrade dienen dazu, neuen Mitgliedern einen Überblick über Erfahrung, Anwesenheit und Fähigkeiten eines Mitgliedes zu geben.
-    \item Die Dienstgrade nehmen, wenn nicht ausdrücklich anders festgelegt, keinen Einfluss auf die Funktion innerhalb einer Mission.
-    \item Die Dienstgrade sind durch die angefügte Abkürzung im Arma 3 Namen kenntlich zu machen.  
-    \item Die Dienstgrade werden im Folgenden aufgeführt:
-    \begin{enumerate}[label=(\Alph*)]
-        \item Offiziere
-        \begin{itemize}
-            \item Hauptmann (Hptm.)
-            \item Oberleutnant (OLt.)
-            \item Leutnant (Lt.)
-        \end{itemize}    
-        \item Unteroffiziere mit Portepee (Feldwebel)
-        \begin{itemize}
-            \item Oberstabsfeldwebel (OStFw.)
-            \item Stabsfeldwebel (StFw.)
-            \item Hauptfeldwebel (HptFw.)
-            \item Oberfeldwebel (OFw.)
-            \item Feldwebel (Fw.)
-        \end{itemize}  
-        \newpage
-        \item Unteroffiziere ohne Portepee
-        \begin{itemize}
-            \item Stabsunteroffizier (StUffz.)
-            \item Unteroffizier (Uffz.)
-        \end{itemize}
-        \item Mannschaften
-        \begin{itemize}
-            \item Stabskorporal (StKorp.)
-            \item Korporal (Korp.)
-            \item Oberstabsgefreiter (OStGefr.)
-            \item Stabsgefreiter (StGefr.)
-            \item Hauptgefreiter (HptGefr.)
-            \item Obergefreiter (OGefr.)
-            \item Gefreiter (Gefr.)
-            \item Jäger (Jg.)
-        \end{itemize}
-    \end{enumerate}
-\end{enumerate}
+% Verschiedenes
 
-\section*{\S~5a Beförderungen}
- 
-\label{sec:befroerderungen}
-\addcontentsline{toc}{section}{\S~5a Beförderungen}
-\begin{enumerate}[label=(\arabic*)]
-    \item Der größte Teil der Beförderung richtet sich nach der Dauer der aktiven Mitgliedschaft. Die genauen Voraussetzungen werden im Nachfolgenden aufgelistet. Als aktive Mitgliedschaft zählt die Zeit, die ein Mitglied nicht in der Reserve war.    
-    \item Die Beförderungen innerhalb der Mannschaften, Unteroffiziere ohne Portepee und Unteroffiziere mit Portepee, mit Ausnahme der Dienstgrade Stabsfeldwebel und Oberstabsfeldwebel, werden durch die Leitung durchgeführt. Alle anderen Beförderungen werden durch die Mitgliederversammlung durchgeführt. Die Mitgliederversammlung kann durch eine relative Mehrheit ebenfalls Beförderungen innerhalb der Dienstgrade der Mannschaften, Unteroffiziere ohne Portepee und Unteroffiziere mit Portepee auf Vorschlag eines Mitgliedes vornehmen. Bei Beförderungen durch die Mitgliederversammlung innerhalb der Mannschaften, Unteroffiziere ohne Portepee und Unteroffiziere mit Portepee sind die unten genannten Voraussetzungen nicht nötig, die Voraussetzungen nach \hyperref[sec:dienstgradschluessel]{\S~5b} allerdings schon. Hierbei können auch passive Mitglieder befördert werden.    
-    \item Bei Regelverstößen kann eine Aussetzung von Beförderung vorgenommen werden.    
-    \item Dienstgrade können nicht übersprungen werden. Ausnahme hierbei sind: der Dienstgrad Korporal, welcher ab dem Dienstgrad Hauptgefreiter erreicht werden kann, der Dienstgrad Unteroffizier, welcher ab dem Dienstgrad Hauptgefreiter erreicht werden kann, der Dienstgrad Feldwebel, der ab dem Dienstgrad Hauptgefreiter erreicht werden kann, und die Dienstgrade Leutnant und Stabsfeldwebel, wenn diese durch die Wahl zu einem bestimmten Posten erreicht werden.   
-    \item Es gibt kein Recht auf Beförderung. Beförderungen sind nur in Anwesenheit der zu befördernden Person durchführbar.
-    \newpage
-    \item Voraussetzungen:
-    \begin{enumerate}[label=(\Alph*)]
-        \item Voraussetzungen für Beförderungen innerhalb der Offiziere:
-        \begin{center}
-        \begin{tabular}{|p{4cm}|p{8cm}|}
-        \hline
-        \textbf{Dienstgrad} & \textbf{Voraussetzung} \\
-        \hline
-        Hauptmann & Dienstgrad Oberleutnant für mindestens 6 ununterbrochene Monate, mindestens eine vollständige absolvierte Dienstzeit als Unit-Leiter und Beförderung durch die Mitgliederversammlung \\
-        \hline
-        Oberleutnant & Dienstgrad Leutnant für mindestens 6 ununterbrochene Monate und Beförderung durch die Mitgliederversammlung \\
-        \hline
-        Leutnant & Wahl zum Unit-Leiter durch die Mitgliederversammlung, oder Dienstgrad Oberstabsfeldwebel für mindestens 6 ununterbrochene Monate, Unit-Leiter im Dienstgrad Hauptmann und Beförderung durch die Mitgliederversammlung \\
-        \hline
-        \end{tabular}
-        \end{center}
-	
-        \item Voraussetzungen für Beförderungen innerhalb der Unteroffiziere mit Portepee (Feldwebel):
-        \begin{center}
-        \begin{tabular}{|p{4cm}|p{8cm}|}
-        \hline
-        \textbf{Dienstgrad} & \textbf{Voraussetzung} \\
-        \hline
-        Oberstabsfeldwebel & Dienstgrad Stabsfeldwebel für mindestens 6 ununterbrochene Monate und Beförderung durch die Mitgliederversammlung \\
-        \hline
-        Stabsfeldwebel & Wahl zum Spieß durch die Mitgliederversammlung \\
-        \hline
-        Hauptfeldwebel & Dienstgrad Oberfeldwebel für mindestens 6 ununterbrochene Monate oder Dienstgrad des Oberfeldwebels und aktive Mitgliedschaft für mindestens 24 Monate \\
-        \hline
-        Oberfeldwebel & Dienstgrad Feldwebel für mindestens 6 ununterbrochene Monate oder Dienstgrad Feldwebel und aktive Mitgliedschaft für mindestens 12 Monate \\
-        \hline
-        Feldwebel & Mindestens Dienstgrad Hauptgefreiter, am Tag der Feldwebelprüfung für mindestens 6 Monate aktive Mitgliedschaft und letzte passive Mitgliedschaft vor mindestens 6 Monaten, die Gruppenführer-Kampfrolle und bestandene Feldwebelprüfung \\
-        \hline
-        \end{tabular}
-        \end{center}
-        
-        \newpage
-        \item Voraussetzungen für Beförderungen innerhalb der Unteroffiziere ohne Portepee:
-        \begin{center}
-        \begin{tabular}{|p{4cm}|p{8cm}|}
-        \hline
-        \textbf{Dienstgrad} & \textbf{Voraussetzung} \\
-        \hline
-        Stabsunteroffizier & Dienstgrad Unteroffizier für mindestens 6 ununterbrochene Monate, oder besondere Leistungen als UvD \\
-        \hline
-        Unteroffizier & Mindestens Dienstgrad Hauptgefreiter und bestandene Unteroffiziersprüfung \\
-        \hline
-        \end{tabular}
-        \end{center}
-	
-        \item Voraussetzungen für Beförderungen innerhalb der Mannschaften:
-        \begin{center}
-        \begin{tabular}{|p{4cm}|p{8cm}|}
-        \hline
-        \textbf{Dienstgrad} & \textbf{Voraussetzung} \\
-        \hline
-        Stabskorporal & Dienstgrad Korporal für mindestens 6 ununterbrochene Monate, Ausbilder für ingesamt drei Kampfrollen, wovon mindestens eine Kampfrolle eine Sonder-Kampfrolle ist und die Sch\"{u}tzen-Kampfrolle nicht mitgez\"{a}hlt wird, Rolle des Zeus/Missionsbauer und die Gruppenführer-Kampfrolle \\
-        \hline
-        Korporal & Mindestens Dienstgrad Hauptgefreiter, Ausbilder für mindestens zwei Kampfrollen inklusive der Bereitschaft bei administrativen Aufgaben zu unterstützen und die Kampfrolle Schütze auszubilden \\
-        \hline
-        Oberstabsgefreiter & Aktive Mitgliedschaft für mindestens 24 Monate oder 20 ununterbrochene Monate aktive Mitgliedschaft \\
-        \hline
-        Stabsgefreiter & Aktive Mitgliedschaft für mindestens 12 Monate oder 10 ununterbrochene Monate aktive Mitgliedschaft \\
-        \hline
-        Hauptgefreiter & Aktive Mitgliedschaft für mindestens 6 Monate \\
-        \hline
-        Obergefreiter & Aktive Mitgliedschaft für mindestens 3 Monate \\
-        \hline
-        Gefreiter & Kampfrolle Schütze und Teilnahme an drei Missionen als Jäger \\
-        \hline
-        Jäger & Mitgliedschaft in der 1st Aircat Division \\
-        \hline
-        \end{tabular}
-        \end{center}
-    \end{enumerate}
-\end{enumerate}
+\inputsection{10_Verschiedenes/10_Verschiedenes.tex}
 
-\newpage
+% Gültigkeit
 
-\section*{\S~5b Dienstgradschlüssel}
-\label{sec:dienstgradschluessel}
-\addcontentsline{toc}{section}{\S~5b Dienstgradschlüssel}
+\inputsection{11_Gueltigkeit/11_Gueltigkeit.tex}
 
-\begin{enumerate}[label=(\arabic*)]
-	\item Da je nach Mitgliederanzahl bestimmte Ränge nicht benötigt werden, gilt der im Folgenden aufgelistete Dienstgradschlüssel. Der Dienstgradschlüssel bezieht sich immer nur auf Dienstgrade, die von aktiven Mitgliedern besetzt werden.
-        \item Wenn eine unten beschriebene Schwelle für einen Dienstgrad erreicht wurde, so entscheidet die Leitung, wann die für eine Beförderung erforderlichen Maßnahmen ergriffen werden. Wird die Schwelle für eine solche Beförderung vor Durchführung dieser Beförderung wieder unterschritten, wird die Beförderung nicht durchgeführt. Wird die Schwelle für eine solche Beförderung nach Durchführung dieser Beförderung wieder unterschritten, bleibt die Beförderung bestehen. Bei erneutem Erreichen dieser Schwelle wird nicht erneut befördert.
-\end{enumerate}
+% Glossar
 
-\begin{center}
-\begin{tabular}{|p{8cm}|p{6cm}|}
-	\hline
-	\textbf{Mitgliederanzahl (ohne Leitung)} & \textbf{Dienstgrade} \\
-	\hline
-	Weniger als 8 aktive Mitglieder & Mannschaftsdienstgrade bis Oberstabsgefreiter + Dienstgrade der Leitung \\
-	\hline
-	Mindestens 8 aktive Mitglieder & Vorhergehende + einen Korporal/Stabskorporal \\
-	\hline
-	Mindestens 9 aktive Mitglieder & Vorhergehende + einen Unteroffizier ohne Portepee \\
-	\hline
-	Mindestens 13 aktive Mitglieder & Vorhergehende + einen Korporal/Stabskorporal und einen Unteroffizier mit Portepee \\
-	\hline
-	Mindestens 18 aktive Mitglieder & Vorhergehende + einen Korporal/Stabskorporal und einen Unteroffizier ohne Portepee \\
-	\hline
-	Mindestens 30 aktive Mitglieder & Vorhergehende + zwei Unteroffiziere ohne Portepee und zwei Unteroffiziere mit Portepee \\
-	\hline
-\end{tabular}
-\end{center}
+\inputsection{ZZ_Glossar/Glossar.tex}
 
-\section*{\S~6 Missionen}
-\label{sec:missionen}
-\addcontentsline{toc}{section}{\S~6 Missionen}
-
-\begin{enumerate}[label=(\arabic*)]
-    \item Die Teilnahme an Missionen ist für aktive Mitglieder verpflichtend.    
-    \item Tag, Uhrzeit und Regelmäßigkeit der Mission legt die Mitgliederversammlung fest.    
-    \item Die Missionen finden auf einem Arma 3 Gameserver statt.    
-    \item Die Leitung kann besondere Events für bspw. Halloween, Weihnachten, Jubiläen etc. ansetzen. Die Teilnahme an diesen ist freiwillig.    
-    \item Missionen müssen über die Anwesenheitsliste angekündigt werden. Diese sollte unverzüglich nach der Nachbesprechung der vorhergehenden Mission erstellt werden.   
-    \item Anwesenheit, oder Abwesenheit für eine Mission müssen auf der Anwesenheitsliste vermerkt werden.
-    \item Die Anwesenheitsliste wird 30 Minuten vor Missionsbeginn geschlossen. Mitglieder, die bis zu diesem Zeitpunkt keinen Vermerk über ihre Anwesenheit, oder Abwesenheit gemacht haben, gelten als unentschuldigt. Wenn innerhalb von 72 Stunden nach Missionsbeginn der Leitung erklärt wird, dass aufgrund eines Notfalls o.Ä. die Teilnahme nicht möglich war, gilt dies als entschuldigt.   
-    \item Unmittelbar nach einer Mission ist eine Nachbesprechung dieser durchzuführen. In dieser soll der Missionsbauer und das eingesetzte Führungspersonal nicht nur vorstellen, was sie warum getan haben, sondern ihr Verhalten auch allem voran selbstkritisch reflektieren. Der Stab kann hierbei ebenfalls Kritik äußern. Mitglieder müssen die Möglichkeit haben sich äußern zu können. Ziel ist es Probleme frühzeitig zu erkennen, damit diese ausgebessert werden können aber auch gut funktionierende Ideen und Ansätze zu fördern, Genaueres kann die Leitung festlegen.    
-    \begin{enumerate}[label=(\Alph*)]
-    	\item Im Rahmen einer Nachbesprechung können, Wahlen, Abstimmungen, Beförderungen, Mitgliederversammlungen etc. satzungsgemäß durchgeführt werden.
-    \end{enumerate}
-    \item Die Leitung hat das Recht, einen aktiven Unteroffizier zu jedem Zeitpunkt einer Mission als Führungspersonal in dieser Mission einzusetzen, sollte es sich zeigen, dass dies notwendig ist.
-    \item Die Leitung ist verpflichtet an mindestens sechs Missionstermine im Jahr Trainingsmissionen durchzuführen. Diese sollten möglichst gleichmäßig über das Jahr verteilt sein. 
-       \begin{enumerate}[label=(\Alph*)]
-        \item Zusätzlich zu Maßnahmen gem\"{a}{\ss} \S~4a Absatz \ref{itm:versetzung_reserve} und \hyperref[sec:umgang_mit_regelverstoeßen]{\S~8} kann die Leitung weitere disziplinarische Maßnahmen verh\"{a}ngen, wenn ein Mitglied regelm\"{a}{\ss}ig nicht an Trainings teilnimmt.
-    \end{enumerate}    
-\end{enumerate}
-
-\section*{\S~6a Modpack} 
-\label{sec:modpack}
-\addcontentsline{toc}{section}{\S~6a Modpack}
-
-\begin{enumerate}[label=(\arabic*)]
-    \item Das Modpack wird durch die Leitung festgelegt. Diese Mods müssen bei jeder Mission von jedem Mitglied genutzt werden. Ziel des Modpacks ist es, den Spielspaß und den Realismus zu verbessern.    
-    \item Kostenpflichtige Inhalte dürfen kein Teil des Modpacks sein.    
-    \item Bei der Erstellung des Modpacks sollten alle Mitglieder mit einbezogen werden. Auch sollte darauf geachtet werden, dass Arma 3 für möglichst alle Mitglieder spielbar bleibt.    
-    \item Die Leitung kann eine Black- beziehungsweise Whiteliste für clientsided Mods erstellen.
-\end{enumerate}
-
-\section*{\S~7 Roleplay} 
-\label{sec:roleplay}
-\addcontentsline{toc}{section}{\S~7 Roleplay}
-
-\begin{enumerate}[label=(\arabic*)]
-    \item Die Roleplay-Regeln gelten ausschließlich während den Missionen. Für besondere Missionen können besondere Roleplay-Regeln verfasst werden. Diese müssen vorher mit der Leitung abgeklärt werden.   
-    \item Grundsätzlich sollte immer ein seriöses Roleplay eingehalten werden, bei dem sich jeder entsprechend seiner Rolle verhält.    
-    \item Es gelten dabei die bekannten Regeln:
-    \begin{enumerate}[label=(\Alph*)]
-        \item Fail RP: Es ist jederzeit Roleplay zu betreiben.
-        \item Random Deathmatch (RDM): Das willkürliche Töten ist zu jeder Zeit verboten.
-        \item Vehicle Deathmatch (VDM): Das Überfahren von Personen, von denen keine Gefahr ausgeht, ist ebenfalls verboten.
-    \end{enumerate}    
-    \item Vorgesetzte innerhalb der Mission sollten stets respektiert und deren Befehle ausgeführt werden. (\say{Gute Soldaten befolgen Befehle.} Zitat Chris, ehemaliger Leutnant)    
-    \item Während der Mission hat derjenige mit der höchsten Funktion innerhalb der Mission unabhängig vom Dienstgrad das Kommando. Seinen Befehlen und Anweisungen ist Folge zu leisten.    
-    \item Jeder (Unter)Offizier hat unmittelbar vor und nach der Mission zu jeder Zeit die Möglichkeit P(ermission)T(o)S(peak) auszurufen. PTS gilt, bis etwas anderes ausgerufen wird. Wer während PTS etwas sagen möchte, hat sich einmalig mit „PTS“ zu melden. Derjenige, der PTS ausruft, hat die Entscheidungsgewalt, ob und wann dem PTS stattgegeben wird. Das gleiche Recht steht dem Gefreiten vom Dienst (GvD) zu. PTS kann jederzeit von einem Vorgesetzten beendet werden. Innerhalb der Mission hat das dortige Führungspersonal dieses Recht inne. Mitglieder, die gegebenenfalls dennoch einen höheren Dienstgrad innehaben, haben Folge zu leisten.    
-    \item Grundsätzlich steht der Spielspaß aller Mitglieder im Vordergrund. Diesen einem Mitglied zu verwehren oder zu vermindern gilt als schwerer Regelverstoß. Streitigkeiten oder Ähnliches können nach der Mission, gegebenenfalls im Beisein der Leitung, geklärt werden.
-\end{enumerate}
-
-
-\section*{\S~8 Umgang mit Regelverstößen}
-\label{sec:umgang_mit_regelverstoeßen}
-\addcontentsline{toc}{section}{\S~8 Umgang mit Regelverstößen}
-
-\begin{enumerate}[label=(\arabic*)]
-    \item Jeder Regelverstoß wird geahndet.    
-    \item Jedes Mitglied ist verpflichtet, grobe Regelverstöße zu melden.  
-    \item\label{itm:vorgehen_bei_verstoß} Ein Regelverstoß zieht eine mündliche Verwarnung durch die Leitung nach sich. Dieser gilt für 3 Monate. Verstößt das verwarnte Mitglied in dieser Zeit gegen eine Regel, greift das nachfolgende Prozedere:
-    \begin{enumerate}[label=(\Alph*)]
-        \item Handelt es sich um einen Verstoß, der mindestens ein anderes Mitglied betrifft, lädt der Stab zu einem klärenden Gespräch mit allen Seiten ein. Der Gefreite vom Dienst (GvD) vertritt dabei die restliche Mannschaft.
-        \item Handelt es sich um einen Verstoß, der nur die Person desjenigen betrifft, die den Regelverstoß begangen hat, lädt der Stab zu einem klärenden Gespräch mit dieser Person ein. Der Gefreite vom Dienst (GvD) kann hierbei die restliche Mannschaft vertreten.
-    \end{enumerate}
-    Kommt es trotz diesem Gespräch zu einem weiteren Regelverstoß, oder das Gespräch führt zu keiner Einigung, legt der Stab, nach Anhörung aller Seiten, eine Strafe fest. Der Gefreite vom Dienst (GvD) vertritt dabei in jedem Fall die restliche Mannschaft. Wird diese Entscheidung innerhalb von 72 Stunden nach Bekanntgabe von mindestens einem Mitglied angefochten, so tagt der erweiterte Stab nach erneuter Anhörung aller Seiten und legt eine Strafe fest. Diese Entscheidung gilt dann endgültig. Gibt es keinen erweiterten Stab, so tagt der Stab erneut. Eine Entscheidung muss in jedem Fall öffentlich bekannt gemacht werden.    
-    \item\label{itm:schwerer_verstoß}Die Strafen richten sich nach der Schwere des Vergehens. Alle Vergehen, die das öffentliche Ansehen der 1st Aircat Division schaden und/oder andere Spieler im Spielspaß einschränken, gelten als schweres Vergehen.    
-    \item Leichte Vergehen werden mit einem Ausschluss von einer Mission, oder einem Ausschluss von Beförderungen für einen Monat bestraft.    
-    \item\label{itm:strafe_schwerer_verstoß} Schwere Vergehen werden mit einem Ausschluss von mehreren Missionen, mindestens aber 4 Missionen, oder einem Ausschluss von Beförderung für mehrere Monate, mindestens aber 3 Monate, bestraft.   
-    \item Wiederholte schwere Vergehen werden mit einem Ausschluss von mehreren Missionen, mindestens aber 6 Missionen, und/oder einem Ausschluss von Beförderung für mehrere Monate, mindestens aber 6 Monaten, und/oder einer Degradierung bestraft. In besonders schweren Fällen kann das bestrafte Mitglied aus der Unit ausgeschlossen werden. Die Dauer des Ausschlusses legt das bestrafende Organ fest. Die Dauer des Ausschlusses darf nicht unter 6 Monaten liegen. Ein permanenter Ausschluss ist möglich.
-\end{enumerate}
-
-\section*{\S~8a Umgang mit Beschwerden gegen Einzelpersonen}
-\label{sec:umgang_mit_beschwerden_gegen_einzelpersonen}
-\addcontentsline{toc}{section}{\S~8a Umgang mit Beschwerden gegen Einzelpersonen}
-
-\begin{enumerate}[label=(\arabic*)]
-    \item Jedes Mitglied hat, unabhängig von Dienstgrad und Funktion, wenn nicht anders festgelegt, das Recht, Beschwerde gegen Einzelpersonen einzureichen. Gegen jedes Mitglied kann, unabhängig von Dienstgrad und Funktion, Beschwerde eingereicht werden.    
-    \item Möchte ein Mitglied in einem Mannschaftsdienstgrad Beschwerde gegen eine Einzelperson einreichen, so ist dies beim Gefreiten vom Dienst (GvD) zu tun. Möchte ein Mitglied in einem Nicht-Mannschaftsdienstgrad Beschwerde gegen eine Einzelperson einreichen, so ist dies beim Personal-Feldwebel zu tun. Ist der Posten des Personal-Feldwebels nicht besetzt, dann ist dies beim Spieß zu tun.    
-    \item Wird eine Beschwerde eingereicht, so tagt der Stab nach Anhörung aller Seiten und entscheidet, wie mit der Beschwerde umzugehen ist. Wird diese Entscheidung innerhalb von 72 Stunden nach Bekanntgabe von einem Mitglied angefochten, so tagt der erweiterte Stab nach erneuter Anhörung aller und legt fest, wie mit der Beschwerde umzugehen ist. Die Entscheidung gilt dann endgültig. Gefreiter vom Dienst (GvD) und Personal-Feldwebel vertreten dabei in jedem Fall die Interessen der Mannschaft. Gibt es keinen erweiterten Stab, so tagt der Stab erneut. Eine Entscheidung muss in jedem Fall öffentlich bekannt gemacht werden-    
-    \item Geht das Beschwerde einreichende Mitglied davon aus, dass die für die Beschwerde zuständige Stelle diese Beschwerde nicht nachverfolgen kann, so ist die nächst höhere Stelle zuständig. Die Reihenfolge der zuständigen Stellen wird in \S~8a Absatz 4\ref{itm:reihenfolge_beschwerde} festgelegt.
-    \begin{enumerate}[label=(\Alph*)]
-        \item\label{itm:reihenfolge_beschwerde} Gefreiter vom Dienst (GvD) —> Personal-Feldwebel —> Spieß —> Unit-Leiter —> S1-Feldwebel
-        \item Richtet sich die Beschwerde gegen den Unit-Leiter, oder den Spieß, so sind diese beiden Stellen zu überspringen. Vor der öffentlichen Konfrontation gegenüber der entsprechenden Person während einer Nachbesprechung, oder während der Mitgliederversammlung, ist der S1-Feldwebel die höchste anzurufende Stelle, bei Beschwerden solcher Art. Ist der Posten des S1-Feldwebels nicht besetzt, so kann neben dem Gefreiten vom Dienst (GvD) zusätzlich der Unteroffizier vom Dienst (UvD) angerufen werden. Die öffentliche Konfrontation gegenüber der entsprechenden Person während einer Nachbesprechung, oder während der Mitgliederversammlung kann in einem solchen Fall, auch ohne vorheriges Durchlaufen aller Stellen, ergriffen werden. Richtet sich die Beschwerde gegen eine andere Person, die einen der Posten aus \S~8a Absatz 4A inne hat, aber nicht den Posten Unit-Leiter, oder Spieß, so wird diese Stelle übersprungen.
-    \end{enumerate}    
-    \item Die Stelle, an der Beschwerde eingereicht wurde, hat diese in das kleinste Organ, dem es angehört, einzubringen. Hierbei dürfen nur der Stab und der erweiterte Stab berücksichtigt werden. Dieses wendet auf die Beschwerde dann \hyperref[sec:umgang_mit_regelverstoeßen]{\S~8} an. Ist kein Regelverstoß festzustellen, gilt die Beschwerde als abgelehnt. Wird ein Regelverstoß festgestellt, so greift \S~8 Absatz \ref{itm:vorgehen_bei_verstoß}. Der Person, über die Beschwerde eingereicht wurde, ist dies unverzüglich nach Feststellung eines Regelverstoßes anonymisiert mitzuteilen. Wird diese Entscheidung binnen 72 Stunden angefochten, greift \S~8 Absatz \ref{itm:vorgehen_bei_verstoß} Satz 10.
-    \begin{enumerate}[label=(\Alph*)]
-        \item Eine einmalige Beschwerde, bei der ein Regelverstoß festgestellt wird, zieht, sofern nicht bereits eine Verwarnung ausgesprochen wurde, eine mündliche Verwarnung nach sich. Diese gilt für 3 Monate.
-    \end{enumerate}    
-    \item Jedes Mitglied hat das Recht bei der Leitung zu erfahren, wie viele Beschwerden gegen es eingegangen sind, ob aktuell eine Beschwerde vorliegt und bei wie vielen dieser Beschwerden ein Regelverstoß festgestellt wurde.
-\end{enumerate}
-
-\section*{\S~9 Kampfrollen}
-\label{sec:kampfrollen}
-\addcontentsline{toc}{section}{\S~9 Kampfrollen}
-
-\begin{enumerate}[label=(\arabic*)]
-    \item Kampfrollen stellen die Ausbildungen für verschiedene Funktionen, die in einer Mission ausgeübt werden können, dar. Welche dies sind, wird durch die Leitung festgelegt. Die Kampfrollen Schütze (Grundausbildung), Gruppenführer und Missionsbauer/Zeus sind gesetzt.
-    \begin{enumerate}[label=(\Alph*)]
-        \item Sonder-Kampfrollen sind Kampfrollen, für die neben der Schützen-Kampfrolle noch weitere Ausbildungen benötigt werden. Diese Voraussetzungen legt die Leitung zusammen mit den Ausbildern für diese Sonder-Kampfrollen fest. Die Voraussetzungen müssen klar und in geeigneter Weise mit allen Mitgliedern kommuniziert werden.
-    \end{enumerate}
-    \item Alle Kampfrollen benötigen einen Ausbildungsleitfaden, welcher als stichpunktartige Checkliste der Ausbildungsinhalte zu verstehen ist. Neben den Bedingungen in Arma 3 müssen die Aufgaben, die allgemeinen Verhaltensweisen, das Verhalten in der Gruppe und das Verhalten im Feuerkampf Teil dieses Ausbildungsleitfadens sein. Besonders komplizierte Kampfrollen können um ein Handbuch für Ausbilder und Inhaber ergänzt werden. Ob dies nötig ist, legen die Leitung oder die bestehenden Ausbilder fest.
-    \begin{enumerate}[label=(\Alph*)]
-        \item Sonder-Kampfrollen benötigen ausschließlich ein Handbuch.
-        \item Bei großen Änderungen an einem Ausbildungsleitfaden/Handbuch können die Ausbilder die Eigentümer einer Kampfrolle zu einer Nachschulung verpflichten. Nimmt ein Mitglied nicht daran teil, kann der Stab diesem die Kampfrolle aberkennen.
-        \item Mitglieder können selbständig mit Vorschlägen für Änderungen, oder Neueinführungen für Kampfrollen an die Leitung herantreten.
-        \item Die Leitung hat das Recht, die Erstellung oder Überarbeitung eines Ausbildungsleitfaden/Handbuchs an die Ausbilder oder Interessierte zu delegieren.
-        \item Ausbildungsleitfäden/Handbücher müssen durch die Leitung, oder ein anderes, von der Leitung damit beauftragtes Gremium geprüft und beschlossen werden.
-        \item Die Leitung zeichnet sich für die Ausbildungsleitfäden/Handbücher verantwortlich.
-    \end{enumerate}
-    \item Jedes Mitglied, dass die Voraussetzungen für den Dienstgrad Gefreiter erfüllt hat, auch wenn die Beförderung noch nicht stattgefunden hat, hat ein Recht auf Ausbildung, sofern es die Voraussetzungen für diese Kampfrolle erfüllt.
-    \item In wie weit eine Kampfrolle durch eine Überprüfung, egal welcher Art, bestätigt werden muss, legt die Leitung fest. Sonder-Kampfrollen benötigen einer Überprüfung.
-    \item Jedes Mitglied, welches eine Kampfrolle erworben hat, kann gegen ein anderes Mitglied, welches die gleiche Kampfrolle erworben hat, eine Kampfrollen bezogene Beschwerde, wegen Fehlerverhalten in dieser Kampfrolle, einreichen. In einem solchen Fall tritt der Stab gemeinsam mit den Ausbildern für diese Kampfrolle zusammen und beurteilt diesen Fall. Wird ein Fehlverhalten festgestellt, kann je nach Schwere des Fehlverhaltens eine Nachschulung für diese Kampfrolle, die Sperrung eines Mitglieds für diese Kampfrolle, oder die Aberkennung dieser Kampfrolle erfolgen. Der Stab trifft hierbei die Entscheidung. Die Ausbilder der Kampfrolle haben lediglich eine beratende Funktion.
-    \begin{enumerate}[label=(\Alph*)]
-        \item Wenn das Fehlerverhalten einen schweren Regelverstoß nach \S~8 Absatz \ref{itm:schwerer_verstoß} darstellt, kann zusätzlich eine Bestrafung nach \hyperref[sec:umgang_mit_regelverstoeßen]{\S~8} erfolgen.
-        \item Richtet sich die Beschwerde gegen einen Ausbilder dieser Kampfrolle, so kann dieser auch seinen Posten enthoben werden.
-    \end{enumerate}
-\end{enumerate}
-
-\section*{\S~9a Ausbilder}
- 
-\label{sec:ausbilder}
-\addcontentsline{toc}{section}{\S~9a Ausbilder}
-
-\begin{enumerate}[label=(\arabic*)]
-    \item Ausbilder für eine Kampfrolle werden durch die Leitung auf Empfehlung der bestehenden Ausbilder für diese Kampfrolle ernannt. Bestehen keine Ausbilder, so spricht der Stab eine Empfehlung aus. Dieser Empfehlung ist durch die Leitung immer Folge zu leisten. Eine Ablehnung bedarf einer Erklärung. Diese muss dem S1-Feldwebel, dem Personal-Feldwebel, dem UvD, dem GvD und den bestehenden Ausbildern vorgelegt werden, welche über die Gültigkeit dieser Erklärung abstimmen.
-    \begin{enumerate}[label=(\Alph*)]
-        \item Analog dazu kann die Leitung auch Personen vom Ausbilderposten entheben. Hierbei können auch der Stab, der S1-Feldwebel oder der Personal-Feldwebel eine solche Empfehlung aussprechen, selbst wenn bestehende Ausbilder vorhanden sind. Alle Empfehlungen, einen Ausbilder seines Postens zu entheben, sind durch die Leitung gründlich zu prüfen.
-    \end{enumerate}
-    \item Ausbilder kann jeder werden, der die Kampfrolle, die er ausbilden möchte, seit mindestens drei Monaten besitzt und sich mit dem Ausbildungsleitfaden/Handbuch vertraut gemacht hat. Pro Kampfrolle sollte es zwei, maximal vier Ausbilder geben. Ausbilder sollten aktive Mitglieder sein. Mindestens ein Ausbilder pro Kampfrolle muss ein aktives Mitglied sein, betrifft die Ausbilder der Sonder-Kampfrollen nicht.
-    \begin{enumerate}[label=(\Alph*)]
-        \item Eine Ausnahme hiervon ist möglich, wenn ein Mitglied eine Kampfrolle samt Ausbildungsleitfaden/Handbuch neu einführt oder den bestehenden Ausbildungsleitfaden/Handbuch in besonderem Maße erweitert oder überarbeitet. Eine solche Entscheidung obliegt dem Stab. Die bestehenden Ausbilder einer Kampfrolle sollten hierbei in beratender Funktion unterstützen.
-        \item Die bestehenden Ausbilder können ein Mitglied, das Ausbilder werden möchte, auf die Eignung zur Ausbildung der Kampfrolle testen, bevor sie eine Empfehlung aussprechen. Wie sie dies tun, ist ihnen freigestellt.
-        \item Für Sonder-Kampfrollen-Ausbilder kann die Leitung ggf. weitere Regelungen erlassen. Diese müssen klar und in geeigneter Weise kommuniziert werden.
-    \end{enumerate}
-    \item Ausbilder sind verpflichtet, ihren Ausbildungsleitfaden/Handbuch bei Bedarf anzupassen. Geschieht dies nicht, kann der betreffende Ausbilder seines Postens enthoben werden.
-\end{enumerate}
-
-\section*{\S~10 Verschiedenes}
-\label{sec:verschiedenes}
-\addcontentsline{toc}{section}{\S~10 Verschiedenes}
-
-\begin{enumerate}[label=(\arabic*)]
-    \item Für Themen, wie bspw. Unteroffiziers- und Feldwebelprüfungen, die hier nicht weiter vertieft werden, können durch die Leitung, den Stab, oder den erweiterten Stab eigene Regeln geschaffen werden. Diese bedürfen erst der Zustimmung der Mitgliederversammlung, wenn mindestens ein Drittel der Mitglieder dies verlangt.
-    \item Der Stab und der erweiterte Stab können besondere Gremien einberufen, sollten diese benötigt werden. Über deren Zusammensetzung entscheidet das einberufende Organ. Mitglieder, die einen Mannschaftsdienstgrad inne haben, dürfen ebenfalls Mitglied eines solchen Gremiums sein.
-    \item Die Person, die den Posten des Unit-Leiters innehat, schließt einen rechtlich bindenden Vertrag über das Lizenzrecht der Handbücher für die Sonder-Kampfrollen mit dem jeweiligen Autor. Hier wird für den symbolischen Betrag von 1 € das Recht erworben, die Handbücher auch bei Austritt aus der Unit weiter zu verwenden und diese zu bearbeiten und zu vervielfältigen. Ein vergleichbarer Vertrag wird bei der Wahl eines neuen Unit-Leiters zwischen dem alten und dem neuen Unit-Leiter geschlossen. Erst nach Abschluss dieses Vertrags haben die Handbücher Gültigkeit für ihre jeweilige Ausbildung.
-\end{enumerate}
-
-\section*{\S~11 Gültigkeit}
- 
-\label{sec:gueltigkeit}
-\addcontentsline{toc}{section}{\S~11 Gültigkeit}
-
-\begin{enumerate}[label=(\arabic*)]
-    \item Diese Satzung verliert ihre Gültigkeit, wenn
-    \begin{enumerate}[label=(\Alph*)]
-        \item die Mitglieder der 1st Aircat Division sich in einer demokratischen Entscheidung ein neues, vergleichbares Dokument gegeben haben.
-        \item die Mitglieder der 1st Aircat Division sich in einer demokratischen Entscheidung zur Auflösung der 1st Aircat Division entschieden haben.
-    \end{enumerate}
-    Hierbei sind die Voraussetzungen die gleichen wie nach \S~2e \ref{itm:satzungsaenderungen}.
-\end{enumerate}
-
-\newpage
-\pagenumbering{roman}
-\setcounter{page}{1}
-\section{Glossar der Abkürzungen}
-
-Dieses Glossar wurde mit der Hilfe von Künstlicher Intelligenz ausgearbeitet.
-
-\begin{itemize}
-    \item \textbf{1ACD} -- 1st Aircat Division: Bezeichnung der Arma-3-Unit, auf die sich das Regelwerk bezieht.
-    \item \textbf{a.D.} -- außer Dienst: Zusatz zur Kennzeichnung von Mitgliedern, die sich im Status „außer Dienst“ befinden.
-    \item \textbf{d.R.} -- der Reserve: Zusatz zur Kennzeichnung von Mitgliedern, die sich in der Reserve befinden.
-    \item \textbf{Hptm.} -- Hauptmann: Offiziersdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{OLt.} -- Oberleutnant: Offiziersdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{Lt.} -- Leutnant: Offiziersdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{OStFw.} -- Oberstabsfeldwebel: Unteroffiziersdienstgrad mit Portepee, der innerhalb der Unit verwendet wird.
-    \item \textbf{StFw.} -- Stabsfeldwebel: Unteroffiziersdienstgrad mit Portepee, der innerhalb der Unit verwendet wird.
-    \item \textbf{HptFw.} -- Hauptfeldwebel: Unteroffiziersdienstgrad mit Portepee, der innerhalb der Unit verwendet wird.
-    \item \textbf{OFw.} -- Oberfeldwebel: Unteroffiziersdienstgrad mit Portepee, der innerhalb der Unit verwendet wird.
-    \item \textbf{Fw.} -- Feldwebel: Unteroffiziersdienstgrad mit Portepee, der innerhalb der Unit verwendet wird.
-    \item \textbf{StUffz.} -- Stabsunteroffizier: Unteroffiziersdienstgrad ohne Portepee, der innerhalb der Unit verwendet wird.
-    \item \textbf{Uffz.} -- Unteroffizier: Unteroffiziersdienstgrad ohne Portepee, der innerhalb der Unit verwendet wird.
-    \item \textbf{StKorp.} -- Stabskorporal: Mannschaftsdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{Korp.} -- Korporal: Mannschaftsdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{OStGefr.} -- Oberstabsgefreiter: Mannschaftsdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{StGefr.} -- Stabsgefreiter: Mannschaftsdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{HptGefr.} -- Hauptgefreiter: Mannschaftsdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{OGefr.} -- Obergefreiter: Mannschaftsdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{Gefr.} -- Gefreiter: Mannschaftsdienstgrad, der innerhalb der Unit verwendet wird.
-    \item \textbf{Jg.} -- Jäger: Mitglied auf Probe innerhalb der Unit.
-    \item \textbf{PTS} -- Permission to Speak: Begriff, der während einer Mission oder Besprechung genutzt wird, um das Recht zu erhalten, sprechen zu dürfen.
-    \item \textbf{Unit-Leiter} -- Der Unit-Leiter ist die führende Person innerhalb der 1st Aircat Division. Diese Person hat die oberste Verantwortung für alle administrativen und organisatorischen Aufgaben. Der Unit-Leiter trifft wichtige strategische Entscheidungen und leitet die Unit in allen Angelegenheiten. Der Unit-Leiter wird durch die Mitgliederversammlung gewählt.
-    \item \textbf{Spieß} -- Der Spieß ist der Stellvertreter des Unit-Leiters und hat insbesondere eine unterstützende Rolle in administrativen und organisatorischen Aufgaben. Der Spieß übernimmt die Aufgaben des Unit-Leiters im Falle von Abwesenheit des Unit-Leiters. Der Spieß wird ebenfalls durch die Mitgliederversammlung gewählt.
-    \item \textbf{GvD} -- Gefreiter vom Dienst: Ein Mannschaftsvertreter, der während seiner Amtszeit die Interessen der Mannschaft gegenüber dem Stab und erweiterten Stab vertritt.
-    \item \textbf{UvD} -- Unteroffizier vom Dienst: Ein Unteroffizier, der während seiner Amtszeit bestimmte administrative Aufgaben übernimmt und die Interessen der Unteroffiziere vertritt. Mitglied des Stabs.
-    \item \textbf{S1-Feldwebel} -- Feldwebel der inneren Führung: Zuständig für die Kontrolle und Koordination der Leitung sowie oberste Beschwerdeinstanz. Er übernimmt die Leitung der Unit in Abwesenheit der Leitung. Mitglied des erweiterten Stabs.
-    \item \textbf{PersFw} -- Personal-Feldwebel: Zuständig für die Unterstützung des Gefreiten vom Dienst und die Kontrolle der Mitgliederverwaltung. Mitglied des erweiterten Stabs.
-    \item \textbf{S6-Feldwebel} -- Feldwebel der Technik: Zuständig für technische Fragen und die Verwaltung öffentlicher Kanäle der Unit. Mitglied des erweiterten Stabs.
-    \item \textbf{Leitung} -- Die Leitung setzt sich aus dem Unit-Leiter und dem Spieß zusammen. Sie trägt die Verantwortung für die strategische Ausrichtung und die täglichen administrativen Aufgaben der Unit. Entscheidungen der Leitung gelten sofort, bis sie durch die Mitgliederversammlung oder eine neue Entscheidung wieder aufgehoben werden.
-    \item \textbf{Stab} -- Der Stab unterstützt die Leitung der Unit in administrativen und organisatorischen Aufgaben. Der Stab besteht aus der Leitung (Unit-Leiter und Spieß) sowie weiteren Positionen wie dem Gefreiten vom Dienst (GvD) und dem Unteroffizier vom Dienst (UvD). Der Stab tagt regelmäßig, mindestens einmal im Quartal.
-    \item \textbf{erweiterter Stab} -- Der erweiterte Stab umfasst alle Mitglieder des Stabs sowie alle aktiven Unteroffiziere mit und ohne Portepee. Der erweiterte Stab unterstützt die Leitung bei strategischen und administrativen Entscheidungen und tritt in regelmäßigen Sitzungen zusammen. Entscheidungen im erweiterten Stab betreffen in der Regel wichtige organisatorische Maßnahmen und die langfristige Ausrichtung der Unit sowie Streitbeilegungen.
-    \item \textbf{Zeus} -- Missionsbauer/Spielleiter in Arma 3: Rolle in Arma 3 zur Leitung oder Erstellung von Missionen.
-\end{itemize}
 
 % Weitere Paragraphen systematisch hinzufügen
 
